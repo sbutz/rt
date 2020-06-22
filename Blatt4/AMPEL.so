@@ -1,0 +1,54 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Mon Jun 22 18:20:01 2020
+
+LISTING FOR SIMULATION FILE: AMPEL.si
+
+   1: Name     Ampel;
+   2: PartNo   ATF16V8B;
+   3: Date     03/10/14;
+   4: Revision 01;
+   5: Designer Ich;
+   6: Company  OTH Regensburg;
+   7: Assembly None;
+                   ^
+[0025sa] Please note: inconsistent header information
+
+   8: Location Regensburg;
+   9: Device   G16V8;
+  10: 
+  11: 
+  12: ORDER: Clk, Green, Red, T, Yellow, reset, z0, z1, z2, z3; 
+  13: 
+  14: 
+
+===================
+          Y        
+       G  er       
+       r  le       
+      CeR ls       
+      lee oezzzz   
+      kndTwt0123   
+===================
+0001: CHL0L0LLLL
+0002: CHL1L0LLHL
+0003: CHL0L0LHHL
+0004: CLL0H0HHHL
+0005: CLH0L0LLLH
+0006: CLH0L0HLLH
+0007: CLH1H0LHLH
+0008: CHL0L0LLLL
+0009: CHL0L0HHLL
+0010: CHL0L0HLHL
+0011: CHL0L0HLHL
+0012: CHL0L0HLHL
+0013: CHL0L0HLHL
+0014: CHL0L0HLHL
+0015: CHL0L0HLHL
+0016: CHL0L0HLHL
+0017: CHL0L0HLHL
+0018: CHL0L0HLHL
+0019: CHL0L0HLHL
+0020: CHL0L0HLHL
+0021: CHL0L0HLHL
