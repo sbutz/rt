@@ -1,0 +1,261 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/stefa/git/rt/Blatt5/Aufgabe1
+T_opt
+Z1 !s110 1592902495
+VIV`d8_fmIhad`e4PNHK2U2
+04 6 4 work RCA_16 fast 0
+04 4 4 work glbl fast 0
+=1-74d02b9d70b8-5ef1c35f-155-1de4
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vglbl
+R1
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+Ib]CSWQ172ga^geaffkHUW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1381681120
+8D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+Z4 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1592902495.000000
+!s107 D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+Z5 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vHA
+Z6 !s110 1592902494
+!i10b 1
+!s100 5An7Vdg`VF0eGOX3LH8IP3
+I8[NZKH[_0D9BkinF0AjHV3
+R3
+R0
+Z7 w1592902486
+8HA.vf
+FHA.vf
+Z8 L0 23
+R4
+r1
+!s85 0
+31
+Z9 !s108 1592902494.000000
+!s107 HA.vf|
+!s90 -reportprogress|300|HA.vf|
+!i113 0
+R5
+R2
+n@h@a
+vHA_MUSER_RCA_16
+R1
+!i10b 1
+!s100 @cZW8U1cd6iQ4UDY>>b?72
+Ih<jMd[GUXIfak<U3WL21:3
+R3
+R0
+R7
+Z10 8RCA_16.vf
+Z11 FRCA_16.vf
+R8
+R4
+r1
+!s85 0
+31
+R9
+Z12 !s107 RCA_16.vf|
+Z13 !s90 -reportprogress|300|RCA_16.vf|
+!i113 0
+R5
+R2
+n@h@a_@m@u@s@e@r_@r@c@a_16
+vHA_MUSER_RCA_4
+R6
+!i10b 1
+!s100 WKN?BMWMfBCKBN9h]aA2P0
+I:AABbRSC7lLEKIW3ODbXG3
+R3
+R0
+Z14 w1592902485
+Z15 8RCA_4.vf
+Z16 FRCA_4.vf
+R8
+R4
+r1
+!s85 0
+31
+R9
+Z17 !s107 RCA_4.vf|
+Z18 !s90 -reportprogress|300|RCA_4.vf|
+!i113 0
+R5
+R2
+n@h@a_@m@u@s@e@r_@r@c@a_4
+vHA_MUSER_VA
+R6
+!i10b 1
+!s100 KT;V3MHmgcCac3ZKoOIco0
+IlgN`jhmXb^>^@52Ti7h`R2
+R3
+R0
+R7
+Z19 8VA.vf
+Z20 FVA.vf
+R8
+R4
+r1
+!s85 0
+31
+R9
+Z21 !s107 VA.vf|
+Z22 !s90 -reportprogress|300|VA.vf|
+!i113 0
+R5
+R2
+n@h@a_@m@u@s@e@r_@v@a
+vRCA_16
+R1
+!i10b 1
+!s100 ^aGf2Ek:>o7TNF;C@?X]B3
+I8WQ61V]Rl^3Fa>0VGkkD31
+R3
+R0
+R7
+R10
+R11
+L0 130
+R4
+r1
+!s85 0
+31
+R9
+R12
+R13
+!i113 0
+R5
+R2
+n@r@c@a_16
+vRCA_4
+R6
+!i10b 1
+!s100 m:M[F[KW_93`a^WRLM4SH3
+IPRP[L`h3``abaYQ7kzO0D2
+R3
+R0
+R14
+R15
+R16
+Z23 L0 73
+R4
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R5
+R2
+n@r@c@a_4
+vRCA_4_MUSER_RCA_16
+R1
+!i10b 1
+!s100 V;MAzRk>g4:B8Xk5E2o`73
+IQF[c0hVHo]:TRObWQ2^3m0
+R3
+R0
+R7
+R10
+R11
+R23
+R4
+r1
+!s85 0
+31
+R9
+R12
+R13
+!i113 0
+R5
+R2
+n@r@c@a_4_@m@u@s@e@r_@r@c@a_16
+vVA
+R6
+!i10b 1
+!s100 Ka<z]@O:H=UfU7YH?0KTP2
+ITa^_egS^gbal=@QMPVN<=1
+R3
+R0
+R7
+R19
+R20
+Z24 L0 43
+R4
+r1
+!s85 0
+31
+R9
+R21
+R22
+!i113 0
+R5
+R2
+n@v@a
+vVA_MUSER_RCA_16
+R1
+!i10b 1
+!s100 GUC46KNFXUPf^IJHU>=Eo0
+ISiLLcFdaoDj4_B[J]4<ga2
+R3
+R0
+R7
+R10
+R11
+R24
+R4
+r1
+!s85 0
+31
+R9
+R12
+R13
+!i113 0
+R5
+R2
+n@v@a_@m@u@s@e@r_@r@c@a_16
+vVA_MUSER_RCA_4
+R6
+!i10b 1
+!s100 W>ZKcQ24TNP_Hbf?GA6Ic3
+IkL@Z=;kJ4UH`M089IM4Fe0
+R3
+R0
+R14
+R15
+R16
+R24
+R4
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R5
+R2
+n@v@a_@m@u@s@e@r_@r@c@a_4

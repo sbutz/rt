@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : VA.vf
+// /___/   /\     Timestamp : 06/23/2020 10:54:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/stefa/git/rt/Blatt5/Aufgabe1/VA.vf -w C:/Users/stefa/git/rt/Blatt5/Aufgabe1/VA.sch
+//Design Name: VA
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_VA(a, 
+                   b, 
+                   Cout, 
+                   s);
+
+    input a;
+    input b;
+   output Cout;
+   output s;
+   
+   
+   XOR2  XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(s));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module VA(a, 
+          b, 
+          Cin, 
+          Cout, 
+          s);
+
+    input a;
+    input b;
+    input Cin;
+   output Cout;
+   output s;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   HA_MUSER_VA  XLXI_1 (.a(a), 
+                       .b(b), 
+                       .Cout(XLXN_11), 
+                       .s(XLXN_9));
+   HA_MUSER_VA  XLXI_2 (.a(Cin), 
+                       .b(XLXN_9), 
+                       .Cout(XLXN_10), 
+                       .s(s));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(Cout));
+endmodule

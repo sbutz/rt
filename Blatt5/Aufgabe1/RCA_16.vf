@@ -1,0 +1,292 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RCA_16.vf
+// /___/   /\     Timestamp : 06/23/2020 10:54:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_16.vf -w C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_16.sch
+//Design Name: RCA_16
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_RCA_16(a, 
+                       b, 
+                       Cout, 
+                       s);
+
+    input a;
+    input b;
+   output Cout;
+   output s;
+   
+   
+   XOR2  XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(s));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module VA_MUSER_RCA_16(a, 
+                       b, 
+                       Cin, 
+                       Cout, 
+                       s);
+
+    input a;
+    input b;
+    input Cin;
+   output Cout;
+   output s;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   HA_MUSER_RCA_16  XLXI_1 (.a(a), 
+                           .b(b), 
+                           .Cout(XLXN_11), 
+                           .s(XLXN_9));
+   HA_MUSER_RCA_16  XLXI_2 (.a(Cin), 
+                           .b(XLXN_9), 
+                           .Cout(XLXN_10), 
+                           .s(s));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module RCA_4_MUSER_RCA_16(a0, 
+                          a1, 
+                          a2, 
+                          a3, 
+                          b0, 
+                          b1, 
+                          b2, 
+                          b3, 
+                          Cin, 
+                          Cout, 
+                          s0, 
+                          s1, 
+                          s2, 
+                          s3);
+
+    input a0;
+    input a1;
+    input a2;
+    input a3;
+    input b0;
+    input b1;
+    input b2;
+    input b3;
+    input Cin;
+   output Cout;
+   output s0;
+   output s1;
+   output s2;
+   output s3;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   VA_MUSER_RCA_16  XLXI_1 (.a(a1), 
+                           .b(b1), 
+                           .Cin(XLXN_1), 
+                           .Cout(XLXN_2), 
+                           .s(s1));
+   VA_MUSER_RCA_16  XLXI_2 (.a(a2), 
+                           .b(b2), 
+                           .Cin(XLXN_2), 
+                           .Cout(XLXN_3), 
+                           .s(s2));
+   VA_MUSER_RCA_16  XLXI_4 (.a(a0), 
+                           .b(b0), 
+                           .Cin(Cin), 
+                           .Cout(XLXN_1), 
+                           .s(s0));
+   VA_MUSER_RCA_16  XLXI_5 (.a(a3), 
+                           .b(b3), 
+                           .Cin(XLXN_3), 
+                           .Cout(Cout), 
+                           .s(s3));
+endmodule
+`timescale 1ns / 1ps
+
+module RCA_16(a0, 
+              a1, 
+              a2, 
+              a3, 
+              a4, 
+              a5, 
+              a6, 
+              a7, 
+              a8, 
+              a9, 
+              a10, 
+              a11, 
+              a12, 
+              a13, 
+              a14, 
+              a15, 
+              b0, 
+              b1, 
+              b2, 
+              b3, 
+              b4, 
+              b5, 
+              b6, 
+              b7, 
+              b8, 
+              b9, 
+              b10, 
+              b11, 
+              b12, 
+              b13, 
+              b14, 
+              b15, 
+              Cin, 
+              Cout, 
+              s0, 
+              s1, 
+              s2, 
+              s3, 
+              s4, 
+              s5, 
+              s6, 
+              s7, 
+              s8, 
+              s9, 
+              s10, 
+              s11, 
+              s12, 
+              s13, 
+              s14, 
+              s15);
+
+    input a0;
+    input a1;
+    input a2;
+    input a3;
+    input a4;
+    input a5;
+    input a6;
+    input a7;
+    input a8;
+    input a9;
+    input a10;
+    input a11;
+    input a12;
+    input a13;
+    input a14;
+    input a15;
+    input b0;
+    input b1;
+    input b2;
+    input b3;
+    input b4;
+    input b5;
+    input b6;
+    input b7;
+    input b8;
+    input b9;
+    input b10;
+    input b11;
+    input b12;
+    input b13;
+    input b14;
+    input b15;
+    input Cin;
+   output Cout;
+   output s0;
+   output s1;
+   output s2;
+   output s3;
+   output s4;
+   output s5;
+   output s6;
+   output s7;
+   output s8;
+   output s9;
+   output s10;
+   output s11;
+   output s12;
+   output s13;
+   output s14;
+   output s15;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   RCA_4_MUSER_RCA_16  XLXI_1 (.a0(a0), 
+                              .a1(a2), 
+                              .a2(a3), 
+                              .a3(b3), 
+                              .b0(a1), 
+                              .b1(b0), 
+                              .b2(b1), 
+                              .b3(b2), 
+                              .Cin(Cin), 
+                              .Cout(XLXN_1), 
+                              .s0(s0), 
+                              .s1(s1), 
+                              .s2(s2), 
+                              .s3(s3));
+   RCA_4_MUSER_RCA_16  XLXI_2 (.a0(a4), 
+                              .a1(a6), 
+                              .a2(a7), 
+                              .a3(b7), 
+                              .b0(a5), 
+                              .b1(b4), 
+                              .b2(b5), 
+                              .b3(b6), 
+                              .Cin(XLXN_1), 
+                              .Cout(XLXN_2), 
+                              .s0(s4), 
+                              .s1(s5), 
+                              .s2(s6), 
+                              .s3(s7));
+   RCA_4_MUSER_RCA_16  XLXI_3 (.a0(a8), 
+                              .a1(a10), 
+                              .a2(a11), 
+                              .a3(b11), 
+                              .b0(a9), 
+                              .b1(b8), 
+                              .b2(b9), 
+                              .b3(b10), 
+                              .Cin(XLXN_2), 
+                              .Cout(XLXN_3), 
+                              .s0(s8), 
+                              .s1(s9), 
+                              .s2(s10), 
+                              .s3(s11));
+   RCA_4_MUSER_RCA_16  XLXI_4 (.a0(a12), 
+                              .a1(a14), 
+                              .a2(a15), 
+                              .a3(b15), 
+                              .b0(a13), 
+                              .b1(b12), 
+                              .b2(b13), 
+                              .b3(b14), 
+                              .Cin(XLXN_3), 
+                              .Cout(Cout), 
+                              .s0(s12), 
+                              .s1(s13), 
+                              .s2(s14), 
+                              .s3(s15));
+endmodule

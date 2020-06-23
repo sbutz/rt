@@ -1,0 +1,127 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RCA_4.vf
+// /___/   /\     Timestamp : 06/23/2020 10:54:45
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_4.vf -w C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_4.sch
+//Design Name: RCA_4
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_RCA_4(a, 
+                      b, 
+                      Cout, 
+                      s);
+
+    input a;
+    input b;
+   output Cout;
+   output s;
+   
+   
+   XOR2  XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(s));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module VA_MUSER_RCA_4(a, 
+                      b, 
+                      Cin, 
+                      Cout, 
+                      s);
+
+    input a;
+    input b;
+    input Cin;
+   output Cout;
+   output s;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   HA_MUSER_RCA_4  XLXI_1 (.a(a), 
+                          .b(b), 
+                          .Cout(XLXN_11), 
+                          .s(XLXN_9));
+   HA_MUSER_RCA_4  XLXI_2 (.a(Cin), 
+                          .b(XLXN_9), 
+                          .Cout(XLXN_10), 
+                          .s(s));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module RCA_4(a0, 
+             a1, 
+             a2, 
+             a3, 
+             b0, 
+             b1, 
+             b2, 
+             b3, 
+             Cin, 
+             Cout, 
+             s0, 
+             s1, 
+             s2, 
+             s3);
+
+    input a0;
+    input a1;
+    input a2;
+    input a3;
+    input b0;
+    input b1;
+    input b2;
+    input b3;
+    input Cin;
+   output Cout;
+   output s0;
+   output s1;
+   output s2;
+   output s3;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   VA_MUSER_RCA_4  XLXI_1 (.a(a1), 
+                          .b(b1), 
+                          .Cin(XLXN_1), 
+                          .Cout(XLXN_2), 
+                          .s(s1));
+   VA_MUSER_RCA_4  XLXI_2 (.a(a2), 
+                          .b(b2), 
+                          .Cin(XLXN_2), 
+                          .Cout(XLXN_3), 
+                          .s(s2));
+   VA_MUSER_RCA_4  XLXI_4 (.a(a0), 
+                          .b(b0), 
+                          .Cin(Cin), 
+                          .Cout(XLXN_1), 
+                          .s(s0));
+   VA_MUSER_RCA_4  XLXI_5 (.a(a3), 
+                          .b(b3), 
+                          .Cin(XLXN_3), 
+                          .Cout(Cout), 
+                          .s(s3));
+endmodule

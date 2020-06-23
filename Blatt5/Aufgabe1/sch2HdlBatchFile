@@ -1,0 +1,4 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_4.vf,-w,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_4.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_16.vf,-w,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/RCA_16.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/HA.vf,-w,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/HA.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/VA.vf,-w,C:/Users/stefa/git/rt/Blatt5/Aufgabe1/VA.sch
