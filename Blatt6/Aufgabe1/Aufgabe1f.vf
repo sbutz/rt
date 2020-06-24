@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Aufgabe1f.vf
+// /___/   /\     Timestamp : 06/24/2020 12:12:30
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe1f.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe1f.sch
+//Design Name: Aufgabe1f
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Aufgabe1f(a, 
+                 clk, 
+                 rst, 
+                 rst_n, 
+                 x, 
+                 y);
+
+    input a;
+    input clk;
+    input rst;
+    input rst_n;
+   output x;
+   output y;
+   
+   wire XLXN_20;
+   wire XLXN_22;
+   wire XLXN_24;
+   wire [3:0] XLXN_34;
+   wire [3:0] XLXN_35;
+   wire x_DUMMY;
+   wire y_DUMMY;
+   
+   assign x = x_DUMMY;
+   assign y = y_DUMMY;
+   FSM  XLXI_1 (.a(a), 
+               .clk(clk), 
+               .rst_n(rst_n), 
+               .debug_state(), 
+               .x(x_DUMMY), 
+               .y(y_DUMMY));
+   regAdd4  XLXI_2 (.CLK(clk), 
+                   .DataIn(XLXN_34[3:0]), 
+                   .RESET(rst), 
+                   .WE(XLXN_22), 
+                   .DataOut(XLXN_34[3:0]));
+   regAdd4  XLXI_3 (.CLK(clk), 
+                   .DataIn(XLXN_35[3:0]), 
+                   .RESET(rst), 
+                   .WE(XLXN_20), 
+                   .DataOut(XLXN_35[3:0]));
+   AND2  XLXI_4 (.I0(x_DUMMY), 
+                .I1(XLXN_24), 
+                .O(XLXN_22));
+   AND2  XLXI_5 (.I0(y_DUMMY), 
+                .I1(x_DUMMY), 
+                .O(XLXN_20));
+   INV  XLXI_7 (.I(y_DUMMY), 
+               .O(XLXN_24));
+endmodule

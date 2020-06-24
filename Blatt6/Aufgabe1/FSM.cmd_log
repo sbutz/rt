@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../Aufgabe1.vhd -prj Aufgabe1 -o FSM.spl -module FSM -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FSM.spl C:/Users/stefa/git/rt/Blatt6/Aufgabe1/FSM.sym 

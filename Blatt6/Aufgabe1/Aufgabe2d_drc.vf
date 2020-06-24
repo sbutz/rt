@@ -1,0 +1,67 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Aufgabe2d_drc.vf
+// /___/   /\     Timestamp : 06/24/2020 16:41:50
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Programs\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog Aufgabe2d_drc.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe2d.sch
+//Design Name: Aufgabe2d
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Aufgabe2d(a, 
+                 clk, 
+                 rst, 
+                 XLXN_8);
+
+    input a;
+    input clk;
+    input rst;
+    input XLXN_8;
+   
+   wire XLXN_20;
+   wire XLXN_22;
+   wire XLXN_24;
+   wire [3:0] XLXN_34;
+   wire [3:0] XLXN_35;
+   wire [5:0] XLXN_65;
+   wire [4:0] XLXN_76;
+   
+   regAdd4  XLXI_2 (.CLK(clk), 
+                   .DataIn(XLXN_35[3:0]), 
+                   .RESET(XLXN_8), 
+                   .WE(XLXN_20), 
+                   .DataOut(XLXN_35[3:0]));
+   AND2  XLXI_3 (.I0(XLXN_65[5]), 
+                .I1(XLXN_65[4]), 
+                .O(XLXN_20));
+   regAdd4  XLXI_4 (.CLK(clk), 
+                   .DataIn(XLXN_34[3:0]), 
+                   .RESET(rst), 
+                   .WE(XLXN_22), 
+                   .DataOut(XLXN_34[3:0]));
+   AND2  XLXI_5 (.I0(XLXN_65[4]), 
+                .I1(XLXN_24), 
+                .O(XLXN_22));
+   INV  XLXI_7 (.I(XLXN_65[5]), 
+               .O(XLXN_24));
+   reg4  XLXI_10 (.CLK(clk), 
+                 .DataIn(XLXN_65[3:0]), 
+                 .DataOut(XLXN_76[3:0]));
+   (* FileName = "tabelle.txt" *) 
+   mem32x6  XLXI_11 (.Adr(XLXN_76[4:0]), 
+                    .Data(XLXN_65[5:0]));
+   BUF  XLXI_12 (.I(a), 
+                .O(XLXN_76[4]));
+endmodule

@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Aufgabe1f_drc.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe1f.sch 

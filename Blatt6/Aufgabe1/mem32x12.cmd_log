@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/mem32x12.vhd -prj Aufgabe1 -o mem32x12.spl -module mem32x12 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mem32x12.spl C:/Users/stefa/git/rt/Blatt6/Aufgabe1/mem32x12.sym 

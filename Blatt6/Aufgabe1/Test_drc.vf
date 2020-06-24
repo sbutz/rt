@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Test_drc.vf
+// /___/   /\     Timestamp : 06/24/2020 15:53:10
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Programs\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog Test_drc.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Test.sch
+//Design Name: Test
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Test(a, 
+            clk, 
+            rst_n, 
+            x, 
+            y);
+
+    input a;
+    input clk;
+    input rst_n;
+   output x;
+   output y;
+   
+   
+   FSM  XLXI_1 (.a(a), 
+               .clk(clk), 
+               .rst_n(rst_n), 
+               .debug_state(), 
+               .x(x), 
+               .y(y));
+endmodule

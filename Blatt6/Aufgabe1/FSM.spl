@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rst_n
+a
+[Outputs]
+x
+y
+=debug_state[3:0]=
+[BiDir]

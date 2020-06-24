@@ -1,0 +1,11 @@
+force -freeze sim:/Test/clk 1 0, 0 {50 ps} -r 100
+
+force rst_n 0
+force rst 1
+run 2
+
+force rst_n 1
+force a 0
+run 500
+
+stop

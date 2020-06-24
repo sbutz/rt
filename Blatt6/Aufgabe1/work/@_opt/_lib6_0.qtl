@@ -1,0 +1,437 @@
+ng_p_2000.vhd|
+!s107 vhdl_src/vital2000/timing_p_2000.vhd|
+!i113 1
+R105
+R15
+Bbody
+DPx4 work 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R23
+R22
+31
+R80
+!i10b 1
+R4
+R5
+8vhdl_src/vital2000/timing_b_2000.vhd
+Fvhdl_src/vital2000/timing_b_2000.vhd
+l0
+L49
+VKEim8d[eJ5dE^:mEG0P3S0
+!s100 KEim8d[eJ5dE^:mEG0P3S0
+R10
+R88
+!s90 -debug|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_b_2000.vhd|
+!s107 vhdl_src/vital2000/timing_b_2000.vhd|
+!i113 1
+R105
+R15
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.6p/builds/linux/modeltech
+Penv
+32
+b1
+Z0 !s110 1501042118
+!i10b 1
+Z1 OL;C;10.6c;65
+Z2 OP;C;10.6c;65
+Z3 w1501040185
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/std/env.vhd
+Z6 Fvhdl_src/std/env.vhd
+l0
+L1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 OE;C;10.6c;65
+Z8 !s108 1501042118.000000
+Z9 !s90 -debug|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z10 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z11 o-debug -work std -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+32
+R0
+!i10b 1
+R1
+R2
+l0
+L15
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pstandard
+33
+R0
+!i10b 1
+R1
+R2
+R3
+R4
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R7
+R8
+!s90 -debug|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-debug -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Ptextio
+33
+b1
+R0
+!i10b 1
+R1
+R2
+Z13 w1484952105
+R4
+Z14 8vhdl_src/std/textio.vhd
+Z15 Fvhdl_src/std/textio.vhd
+l0
+L1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R7
+R8
+Z16 !s90 -debug|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z17 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z18 o-debug -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+33
+R0
+!i10b 1
+R1
+R2
+l0
+L186
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R7
+R8
+R16
+R17
+!i113 1
+R18
+R12
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Programs/14.7/ISE_DS/ISE
+vADDMACC_MACRO
+Z1 !s110 1592897146
+!i10b 1
+!s100 lVnnP_N<>dUnZc@EmZ_bm3
+I8k1oN7iDlz=ahC4G1FJN71
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1381681047
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDMACC_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDMACC_MACRO.v
+Z4 L0 22
+Z5 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1592897146.000000
+Z7 !s107 D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MULT_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MACC_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_SYNC_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_DUALCLOCK_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\EQ_COMPARE_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_TC_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_LOAD_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_TDP_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SINGLE_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SDP_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDSUB_MACRO.v|D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDMACC_MACRO.v|
+Z8 !s90 -source|-novopt|-64|-work|unimacro_ver|-f|D:\Programs\14.7\ISE_DS\ISE\verilog\mti_se\10.6c\nt64/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.cmf|
+!i113 1
+Z9 o-source -work unimacro_ver -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+n@a@d@d@m@a@c@c_@m@a@c@r@o
+vADDSUB_MACRO
+R1
+!i10b 1
+!s100 7YeAcM72A1d<1FUD?bRkJ3
+IXObW^0Mcgm@W>X:<JZO@10
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDSUB_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\ADDSUB_MACRO.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@a@d@d@s@u@b_@m@a@c@r@o
+vBRAM_SDP_MACRO
+Z11 !s110 1592897147
+!i10b 1
+!s100 4UZ4HbWag>kZ[R;nn=3A10
+Ic=D0Z7@LI`=GNWbT9V[]e1
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SDP_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SDP_MACRO.v
+L0 31
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@b@r@a@m_@s@d@p_@m@a@c@r@o
+vBRAM_SINGLE_MACRO
+R11
+!i10b 1
+!s100 @_Wgk3mRYbCIgGhm;;^Rn2
+IhY9XD]I_i<6S>Jk18jW:U1
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SINGLE_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_SINGLE_MACRO.v
+Z12 L0 28
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@b@r@a@m_@s@i@n@g@l@e_@m@a@c@r@o
+vBRAM_TDP_MACRO
+R11
+!i10b 1
+!s100 =5@g?Rb?7VWFNI<N84nhC2
+IXN35>Qh]0z33G26Pmo8<K1
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_TDP_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\BRAM_TDP_MACRO.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@b@r@a@m_@t@d@p_@m@a@c@r@o
+vCOUNTER_LOAD_MACRO
+R11
+!i10b 1
+!s100 ^J8Qge4F@3SAeSgG9?2dN2
+I`7HS<bHimz5W>@3^cc6Sd3
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_LOAD_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_LOAD_MACRO.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@c@o@u@n@t@e@r_@l@o@a@d_@m@a@c@r@o
+vCOUNTER_TC_MACRO
+R11
+!i10b 1
+!s100 VmMAbLdMM9oPb9@5hlK3f0
+IkOY`aEnd_UGDJS>lKO`<b1
+R2
+R0
+R3
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_TC_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\COUNTER_TC_MACRO.v
+Z13 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@c@o@u@n@t@e@r_@t@c_@m@a@c@r@o
+vEQ_COMPARE_MACRO
+R11
+!i10b 1
+!s100 GzA=zk9aeKm]:IQI`=Y5S2
+ICZZhBSBa8?C^7o9d1Ub1P1
+R2
+R0
+Z14 w1381681048
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\EQ_COMPARE_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\EQ_COMPARE_MACRO.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@e@q_@c@o@m@p@a@r@e_@m@a@c@r@o
+vFIFO_DUALCLOCK_MACRO
+R11
+!i10b 1
+!s100 A_@4MoD:73K=C@7_eh[U]2
+I0<?[Y;G^94_jRiDVRh9R91
+R2
+R0
+R14
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_DUALCLOCK_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_DUALCLOCK_MACRO.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@f@i@f@o_@d@u@a@l@c@l@o@c@k_@m@a@c@r@o
+vFIFO_SYNC_MACRO
+R11
+!i10b 1
+!s100 b`C4_C<58loiZURL1e<ND1
+IdbUU149<I_NYLD5[2o4Oj3
+R2
+R0
+R14
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_SYNC_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\FIFO_SYNC_MACRO.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@f@i@f@o_@s@y@n@c_@m@a@c@r@o
+vMACC_MACRO
+R11
+!i10b 1
+!s100 <EBFkFfVkXW1Y5fB^KDMX0
+I<8X==91Ng6<B<H=Ba2@BU3
+R2
+R0
+R14
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MACC_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MACC_MACRO.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@m@a@c@c_@m@a@c@r@o
+vMULT_MACRO
+R11
+!i10b 1
+!s100 f5=b6`dN5A5>S>9CR9TzP3
+I@dNfQ30`jG<iX[^[jW[>m3
+R2
+R0
+R14
+8D:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MULT_MACRO.v
+FD:\Programs\14.7\ISE_DS\ISE\verilog\src\unimacro\MULT_MACRO.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@m@u@l@t_@m@a@c@r@o
+e_netlist_@v7_2
+vwrite_netlist_V7_3
+R23
+!i10b 1
+!s100 IO9L]zGD1``7JiUk@6V]<1
+IFLoS><O]a=zTcMSY@SPGj0
+R2
+R0
+R3
+R28
+R29
+R162
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+nwrite_netlist_@v7_3

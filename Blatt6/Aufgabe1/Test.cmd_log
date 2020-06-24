@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Test_drc.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Test.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Test_drc.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Test.sch 

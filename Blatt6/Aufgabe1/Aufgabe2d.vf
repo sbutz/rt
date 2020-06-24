@@ -1,0 +1,69 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Aufgabe2d.vf
+// /___/   /\     Timestamp : 06/24/2020 17:57:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe2d.vf -w C:/Users/stefa/git/rt/Blatt6/Aufgabe1/Aufgabe2d.sch
+//Design Name: Aufgabe2d
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Aufgabe2d(a, 
+                 clk, 
+                 rst);
+
+    input a;
+    input clk;
+    input rst;
+   
+   wire we_invalid;
+   wire we_valid;
+   wire XLXN_24;
+   wire [3:0] XLXN_34;
+   wire [3:0] XLXN_35;
+   wire [5:0] XLXN_65;
+   wire [4:0] XLXN_76;
+   wire XLXN_86;
+   
+   regAdd4  XLXI_2 (.CLK(clk), 
+                   .DataIn(XLXN_35[3:0]), 
+                   .RESET(rst), 
+                   .WE(we_valid), 
+                   .DataOut(XLXN_35[3:0]));
+   AND2  XLXI_3 (.I0(XLXN_65[0]), 
+                .I1(XLXN_65[1]), 
+                .O(we_valid));
+   regAdd4  XLXI_4 (.CLK(clk), 
+                   .DataIn(XLXN_34[3:0]), 
+                   .RESET(rst), 
+                   .WE(we_invalid), 
+                   .DataOut(XLXN_34[3:0]));
+   AND2  XLXI_5 (.I0(XLXN_65[1]), 
+                .I1(XLXN_24), 
+                .O(we_invalid));
+   INV  XLXI_7 (.I(XLXN_65[0]), 
+               .O(XLXN_24));
+   mem32x6  XLXI_11 (.Adr(XLXN_76[4:0]), 
+                    .Data(XLXN_65[5:0]));
+   BUF  XLXI_12 (.I(a), 
+                .O(XLXN_76[0]));
+   reg4WRWE  XLXI_13 (.CLK(clk), 
+                     .DataIn(XLXN_65[5:2]), 
+                     .RESET(rst), 
+                     .WE(XLXN_86), 
+                     .DataOut(XLXN_76[4:1]));
+   INV  XLXI_14 (.I(rst), 
+                .O(XLXN_86));
+endmodule

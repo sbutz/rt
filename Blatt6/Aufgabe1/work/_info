@@ -1,0 +1,369 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/stefa/git/rt/Blatt6/Aufgabe1
+T_opt
+Z1 !s110 1593014266
+VI2L2ZH49Lz=imBXfjoOla1
+Z2 04 9 4 work Aufgabe2d fast 0
+Z3 04 4 4 work glbl fast 0
+=1-74d02b9d70b8-5ef377fa-2f1-24b8
+Z4 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;10.6c;65
+T_opt1
+!s110 1593013236
+VJWY6UiTo`jd_4AgSBZ2Pm3
+R2
+R3
+=1-74d02b9d70b8-5ef373f4-1df-2e64
+R4
+R5
+n@_opt1
+R6
+R0
+T_opt2
+!s110 1592993559
+VN1XL8eF=>ben3Y5Y?hIn83
+04 9 4 work Aufgabe1f fast 0
+R3
+=1-74d02b9d70b8-5ef32716-3aa-2d44
+R4
+R5
+n@_opt2
+R6
+R0
+Eadder4
+Z7 w1306219750
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z11 8../VHDLBauteile_Datenpfad/adder4.vhd
+Z12 F../VHDLBauteile_Datenpfad/adder4.vhd
+l0
+L33
+VZX9m6mAUGzJ05YUM;:a_^1
+!s100 Ja4HI9bU?]0c3HD@Xoa6O3
+Z13 OL;C;10.6c;65
+31
+Z14 !s110 1592993310
+!i10b 1
+Z15 !s108 1592993310.000000
+Z16 !s90 -reportprogress|300|-explicit|-93|../VHDLBauteile_Datenpfad/adder4.vhd|
+Z17 !s107 ../VHDLBauteile_Datenpfad/adder4.vhd|
+!i113 0
+Z18 o-explicit -93
+Z19 tExplicit 1 CvgOpt 0
+Abehavioral
+R8
+R9
+R10
+DEx4 work 6 adder4 0 22 ZX9m6mAUGzJ05YUM;:a_^1
+l41
+L39
+V^L:A07j_@8@9aKnG9iA_93
+!s100 eIVRi6KKbO14Kk@4N<73C1
+R13
+31
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+vAufgabe1f
+Z20 !s110 1592993558
+!i10b 1
+!s100 87XQBQoVVW0R3Q<@:ng9m2
+IOcU=Dea7<FVBMhfIZ<^Wc3
+Z21 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1592993550
+8Aufgabe1f.vf
+FAufgabe1f.vf
+Z22 L0 23
+Z23 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z24 !s108 1592993558.000000
+!s107 Aufgabe1f.vf|
+!s90 -reportprogress|300|Aufgabe1f.vf|
+!i113 0
+Z25 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@aufgabe1f
+vAufgabe2d
+R1
+!i10b 1
+!s100 FDRdXfFJGlORBd<<?IW;42
+I3PGC_ikXXP7WB:9P:ljLW3
+R21
+R0
+w1593014258
+8Aufgabe2d.vf
+FAufgabe2d.vf
+R22
+R23
+r1
+!s85 0
+31
+Z26 !s108 1593014266.000000
+!s107 Aufgabe2d.vf|
+!s90 -reportprogress|300|Aufgabe2d.vf|
+!i113 0
+R25
+R5
+n@aufgabe2d
+Efsm
+Z27 w1592985250
+R9
+R10
+R0
+Z28 8../Aufgabe1.vhd
+Z29 F../Aufgabe1.vhd
+l0
+L24
+V3g<I6Cz_OcfjjJ6Heg`IH0
+!s100 VBiXS8G;=cOJ^D3lQ0i@Z0
+R13
+31
+R20
+!i10b 1
+R24
+Z30 !s90 -reportprogress|300|-explicit|-93|../Aufgabe1.vhd|
+Z31 !s107 ../Aufgabe1.vhd|
+!i113 0
+R18
+R19
+Abehave
+R9
+R10
+DEx4 work 3 fsm 0 22 3g<I6Cz_OcfjjJ6Heg`IH0
+l38
+L33
+V7P>J@m5P0fo[zh_ClV?jA1
+!s100 0GnN8_@THnjXET7[A=b]80
+R13
+31
+R20
+!i10b 1
+R24
+R30
+R31
+!i113 0
+R18
+R19
+vglbl
+R1
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+Ib]CSWQ172ga^geaffkHUW2
+R21
+R0
+w1381681120
+8D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R23
+r1
+!s85 0
+31
+R26
+!s107 D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/Programs/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R25
+R5
+Emem32x6
+Z32 w1371060413
+Z33 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R9
+R10
+R0
+Z34 8../VHDLBauteile_Datenpfad/mem32x6.vhd
+Z35 F../VHDLBauteile_Datenpfad/mem32x6.vhd
+l0
+L33
+V1GXCeoIX<h^B6923B41?P1
+!s100 FbkV5mEokN93WN1_74df?2
+R13
+31
+R1
+!i10b 1
+R26
+Z36 !s90 -reportprogress|300|-explicit|-93|../VHDLBauteile_Datenpfad/mem32x6.vhd|
+Z37 !s107 ../VHDLBauteile_Datenpfad/mem32x6.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R33
+R9
+R10
+DEx4 work 7 mem32x6 0 22 1GXCeoIX<h^B6923B41?P1
+l44
+L39
+VNgSEIE]Vz??92@[ZaU9=63
+!s100 0PD[BLcU_Ydz=hCAW<@oT1
+R13
+31
+R1
+!i10b 1
+R26
+R36
+R37
+!i113 0
+R18
+R19
+Ereg4
+Z38 w1306146535
+R9
+R10
+R0
+Z39 8../VHDLBauteile_Datenpfad/reg4.vhd
+Z40 F../VHDLBauteile_Datenpfad/reg4.vhd
+l0
+L33
+VJ2VI1aLdk8[jFPkBUKT`O2
+!s100 M;0@CMQY:ge=jg3Bgd^KE0
+R13
+31
+Z41 !s110 1593013333
+!i10b 1
+Z42 !s108 1593013333.000000
+Z43 !s90 -reportprogress|300|-explicit|-93|../VHDLBauteile_Datenpfad/reg4.vhd|
+Z44 !s107 ../VHDLBauteile_Datenpfad/reg4.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R9
+R10
+DEx4 work 4 reg4 0 22 J2VI1aLdk8[jFPkBUKT`O2
+l41
+L39
+V]DZ?BT8BMmR0Ffhhee>_F2
+!s100 2F=he4kV4E:aTBm1b;1o91
+R13
+31
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R18
+R19
+Ereg4wrwe
+Z45 w1306147170
+R9
+R10
+R0
+Z46 8../VHDLBauteile_Datenpfad/reg4WRWE.vhd
+Z47 F../VHDLBauteile_Datenpfad/reg4WRWE.vhd
+l0
+L33
+VnB2=Zm3mTlml10a[8KhJa0
+!s100 BIUggkjcH6f4QRId2BSL`3
+R13
+31
+R1
+!i10b 1
+R26
+Z48 !s90 -reportprogress|300|-explicit|-93|../VHDLBauteile_Datenpfad/reg4WRWE.vhd|
+Z49 !s107 ../VHDLBauteile_Datenpfad/reg4WRWE.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R9
+R10
+DEx4 work 8 reg4wrwe 0 22 nB2=Zm3mTlml10a[8KhJa0
+l43
+L41
+V>h16QdS17_230I4QGcJoQ1
+!s100 QHU`^LUmn2MYZ9SoONWd11
+R13
+31
+R1
+!i10b 1
+R26
+R48
+R49
+!i113 0
+R18
+R19
+Eregadd4
+Z50 w1306219944
+R8
+R9
+R10
+R0
+Z51 8../VHDLBauteile_Datenpfad/regAdd4.vhd
+Z52 F../VHDLBauteile_Datenpfad/regAdd4.vhd
+l0
+L33
+VMj34J`E``O>T]WKS?VDUP2
+!s100 dH;Vj3BKQGk5FFe7H5c<03
+R13
+31
+R1
+!i10b 1
+R26
+Z53 !s90 -reportprogress|300|-explicit|-93|../VHDLBauteile_Datenpfad/regAdd4.vhd|
+Z54 !s107 ../VHDLBauteile_Datenpfad/regAdd4.vhd|
+!i113 0
+R18
+R19
+Abehavioral
+R8
+R9
+R10
+DEx4 work 7 regadd4 0 22 Mj34J`E``O>T]WKS?VDUP2
+l45
+L41
+VF434]^MFY6B_C_O[AEhn>3
+!s100 ine28H>Ac@RCH7D?bk47J2
+R13
+31
+R1
+!i10b 1
+R26
+R53
+R54
+!i113 0
+R18
+R19
+vTest
+!s110 1592990929
+!i10b 1
+!s100 J;27@Ue1@oQjbN?Mj:e<@2
+IGHAP8`Y]:zObbEQ9=BoN10
+R21
+R0
+w1592989283
+8Test.vf
+FTest.vf
+R22
+R23
+r1
+!s85 0
+31
+!s108 1592990929.000000
+!s107 Test.vf|
+!s90 -reportprogress|300|Test.vf|
+!i113 0
+R25
+R5
+n@test
