@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/mux2x4.vhd -prj Aufgabe2 -o mux2x4.spl -module mux2x4 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mux2x4.spl C:/Users/stefa/git/rt/Blatt7/Aufgabe2/mux2x4.sym 

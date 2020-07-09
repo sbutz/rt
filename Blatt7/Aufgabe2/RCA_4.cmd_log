@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym RCA_4 C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sch C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym RCA_4 C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sch C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym RCA_4 C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sch C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sym 

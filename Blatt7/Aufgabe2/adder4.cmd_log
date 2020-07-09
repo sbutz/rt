@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/adder4.vhd -prj Aufgabe2 -o adder4.spl -module adder4 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e adder4.spl C:/Users/stefa/git/rt/Blatt7/Aufgabe2/adder4.sym 

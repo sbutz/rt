@@ -1,0 +1,9 @@
+[Inputs]
+CLK
+WE
+=RPAdr[1:0]=
+=WRAdr[1:0]=
+=DataIn[3:0]=
+[Outputs]
+=DataOut[3:0]=
+[BiDir]

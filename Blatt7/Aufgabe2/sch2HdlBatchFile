@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/HA.vf,-w,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/HA.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/VA.vf,-w,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/VA.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.vf,-w,C:/Users/stefa/git/rt/Blatt7/Aufgabe2/RCA_4.sch

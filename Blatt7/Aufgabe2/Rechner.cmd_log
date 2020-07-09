@@ -1,0 +1,6 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch 

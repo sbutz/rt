@@ -1,0 +1,7 @@
+[Inputs]
+Sel
+=DataIn1[3:0]=
+=DataIn2[3:0]=
+[Outputs]
+=DataOut[3:0]=
+[BiDir]

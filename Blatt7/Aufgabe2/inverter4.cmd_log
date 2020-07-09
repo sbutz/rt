@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/inverter4.vhd -prj Aufgabe2 -o inverter4.spl -module inverter4 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e inverter4.spl C:/Users/stefa/git/rt/Blatt7/Aufgabe2/inverter4.sym 

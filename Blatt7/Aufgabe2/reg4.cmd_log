@@ -1,0 +1,4 @@
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/reg4.vhd -prj Aufgabe2 -o reg4.spl -module reg4 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e reg4.spl C:/Users/stefa/git/rt/Blatt7/Aufgabe2/reg4.sym 
+vhdtdtfi -lib work ../VHDLBauteile_Datenpfad/reg4.vhd -prj Aufgabe2 -o reg4.spl -module reg4 -template D:/Programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e reg4.spl C:/Users/stefa/git/rt/Blatt7/Aufgabe2/reg4.sym 

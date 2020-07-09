@@ -1,0 +1,166 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Rechner_drc.vf
+// /___/   /\     Timestamp : 07/09/2020 08:31:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Programs\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog Rechner_drc.vf -w C:/Users/stefa/git/rt/Blatt7/Aufgabe2/Rechner.sch
+//Design Name: Rechner
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_Rechner(a, 
+                        b, 
+                        Cout, 
+                        s);
+
+    input a;
+    input b;
+   output Cout;
+   output s;
+   
+   
+   XOR2  XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(s));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module VA_MUSER_Rechner(a, 
+                        b, 
+                        Cin, 
+                        Cout, 
+                        s);
+
+    input a;
+    input b;
+    input Cin;
+   output Cout;
+   output s;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   HA_MUSER_Rechner  XLXI_1 (.a(a), 
+                            .b(b), 
+                            .Cout(XLXN_11), 
+                            .s(XLXN_9));
+   HA_MUSER_Rechner  XLXI_2 (.a(Cin), 
+                            .b(XLXN_9), 
+                            .Cout(XLXN_10), 
+                            .s(s));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module RCA_4_MUSER_Rechner(a, 
+                           b, 
+                           Cin, 
+                           Cout, 
+                           s);
+
+    input [3:0] a;
+    input [3:0] b;
+    input Cin;
+   output Cout;
+   output [3:0] s;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_12;
+   
+   VA_MUSER_Rechner  XLXI_1 (.a(a[2]), 
+                            .b(b[2]), 
+                            .Cin(XLXN_12), 
+                            .Cout(XLXN_2), 
+                            .s(s[2]));
+   VA_MUSER_Rechner  XLXI_2 (.a(a[1]), 
+                            .b(b[1]), 
+                            .Cin(XLXN_2), 
+                            .Cout(XLXN_3), 
+                            .s(s[1]));
+   VA_MUSER_Rechner  XLXI_4 (.a(a[3]), 
+                            .b(b[3]), 
+                            .Cin(Cin), 
+                            .Cout(XLXN_12), 
+                            .s(s[3]));
+   VA_MUSER_Rechner  XLXI_5 (.a(a[0]), 
+                            .b(b[0]), 
+                            .Cin(XLXN_3), 
+                            .Cout(Cout), 
+                            .s(s[0]));
+endmodule
+`timescale 1ns / 1ps
+
+module Rechner(clk, 
+               reset);
+
+    input clk;
+    input reset;
+   
+   wire [3:0] XLXN_4;
+   wire [3:0] XLXN_5;
+   wire [11:0] XLXN_6;
+   wire [3:0] XLXN_9;
+   wire [3:0] XLXN_15;
+   wire [3:0] XLXN_19;
+   wire [3:0] XLXN_35;
+   wire [3:0] XLXN_37;
+   wire [3:0] XLXN_38;
+   wire XLXN_45;
+   wire XLXN_48;
+   
+   assign XLXN_15 = 4'h0;
+   assign XLXN_45 = 1;
+   assign XLXN_48 = 1;
+   inverter4  XLXI_4 (.DataIn(XLXN_5[3:0]), 
+                     .DataOut(XLXN_4[3:0]));
+   regAdd4  XLXI_5 (.CLK(clk), 
+                   .DataIn(XLXN_9[3:0]), 
+                   .RESET(reset), 
+                   .WE(XLXN_48), 
+                   .DataOut(XLXN_9[3:0]));
+   (* FileName = "prom.txt" *) 
+   mem16x12  XLXI_7 (.Adr(XLXN_9[3:0]), 
+                    .Data(XLXN_6[11:0]));
+   registerfile4x4RP1WP1  XLXI_9 (.CLK(clk), 
+                                 .DataIn(XLXN_35[3:0]), 
+                                 .RPAdr(XLXN_6[7:6]), 
+                                 .WE(XLXN_45), 
+                                 .WRAdr(XLXN_6[1:0]), 
+                                 .DataOut(XLXN_19[3:0]));
+   mux2x4  XLXI_10 (.DataIn1(XLXN_6[3:0]), 
+                   .DataIn2(XLXN_19[3:0]), 
+                   .Sel(XLXN_6[11]), 
+                   .DataOut(XLXN_5[3:0]));
+   mux2x4  XLXI_11 (.DataIn1(XLXN_4[3:0]), 
+                   .DataIn2(XLXN_6[3:0]), 
+                   .Sel(XLXN_6[9]), 
+                   .DataOut(XLXN_37[3:0]));
+   mux2x4  XLXI_12 (.DataIn1(XLXN_15[3:0]), 
+                   .DataIn2(XLXN_19[3:0]), 
+                   .Sel(XLXN_6[10]), 
+                   .DataOut(XLXN_38[3:0]));
+   RCA_4_MUSER_Rechner  XLXI_15 (.a(XLXN_38[3:0]), 
+                                .b(XLXN_37[3:0]), 
+                                .Cin(XLXN_6[8]), 
+                                .Cout(), 
+                                .s(XLXN_35[3:0]));
+endmodule
